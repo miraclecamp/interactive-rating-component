@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+:root { 
+  --primary: hsl(25, 97%, 53%);
+  --secondary: hsl(228, 45%, 44%);
+  --tertiary: hsl(217, 12%, 63%);
+  --background: hsl(213, 19%, 18%);
+  --text: hsl(216, 12%, 8%);
+  --font-size: 15px;
+  --font-family: 'Overpass', sans-serif;
+}
+
