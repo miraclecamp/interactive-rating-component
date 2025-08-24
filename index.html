@@ -7,29 +7,29 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Interactive rating component</title>
-  <link rel="stylesheet" href="style.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
 <body>
-  <main>
-  <!-- Rating state start -->
-   <div class="container">
-    <div class="logo">^</div>
-   <h1>How did we do?</h1>
-    <p>Please let us know how we did with your support request. All feedback is appreciated 
-    to help us improve our offering!</p>
-    <div class="rate">
-      <input type="radio" value="1" name="rating" id="rating1" placeholder="1" >  
-      <input type="radio" value="2" name="rating" id="rating2">  
-    </div>   
-
+<main>
   
-
-  1 2 3 4 5
-
-  Submit
-
+  <!-- Rating state start -->
+<div class="card">
+  <span> <i class="star"></i></span>
+  <h1>How did we do?</h1>
+  <p>Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!</p>
+  <button type="submit" value="1">1</button>
+  <button type="submit" value="2">2</button>
+  <button type="submit" value="3">3</button>
+  <button type="submit" value="4">4</button>
+  <button type="submit" value="5">5</button>
+  <button type="submit" value="submit">SUBMIT</button>
+</div>
   <!-- Rating state end -->
 
   <!-- Thank you state start -->
@@ -48,7 +48,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
-  </div>  
-  </main>
+</main>
+
 </body>
 </html>
